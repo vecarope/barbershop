@@ -1,16 +1,24 @@
-.navbar {
-    background: #222323;
-    font: 'roboto regular';
-}
-
-.col-texto {
-    font: 'roboto light';
+.post {
     margin-top: 30px;
     padding: 100px;
+    &__fecha {
+        font: $font-stack;
+    }
+    &__texto {
+        font: $font-stack;
+        line-height: 3;
+    }
 }
 
-.texto {
-    font: 'roboto';
-    margin-top: 30px;
-    padding: 30px;
+.botones {
+    text: $white;
+    &__post {
+        background: $nickel;
+    }
+}
+
+.blogger {}
+
+.pag {
+    &__item {}
 }

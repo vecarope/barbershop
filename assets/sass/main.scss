@@ -1,8 +1,14 @@
-//abstracs
-@import "abstracs/variables";
 //vendor 
 @import "vendor/bootstrap4.6/bootstrap.scss";
+//abstracs
+@import "abstracs/variables";
 //base 
 @import "base/reset";
 //components
 @import "components/componentes";
+//layout
+@import "layout/navegación";
+@import "layout/footer";
+@import "layout/header";
+//pages
+//themes
