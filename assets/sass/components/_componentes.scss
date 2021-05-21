@@ -1,24 +1,27 @@
-.post {
-    margin-top: 30px;
-    padding: 100px;
-    &__fecha {
-        font: $font-stack;
-    }
-    &__texto {
-        font: $font-stack;
-        line-height: 3;
-    }
-}
-
 .botones {
-    text: $white;
+    padding: 100px;
+    margin: 20px;
     &__post {
+        border-radius: 40px;
         background: $nickel;
+        color: $white;
+    }
+    &__post:hover {
+        background: $light-grey;
+        color: $white;
     }
 }
 
-.blogger {}
-
-.pag {
-    &__item {}
+.page {
+    background-color: $platinum;
+    &__box {
+        align-items: center;
+        border-bottom: $platinum;
+    }
+    &__item {
+        border-radius: 40px;
+    }
+    &__link {
+        color: $raisin-black;
+    }
 }

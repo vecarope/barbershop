@@ -1,0 +1,24 @@
+.section {
+    justify-content: center;
+    &__blog {
+        justify-content: right;
+    }
+    &__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+    }
+    &__name {
+        font-family: $secondary-font;
+        font-weight: 900;
+        font-size: x-large;
+        font-style: italic;
+    }
+    &__link {
+        color: $ruddy-pink;
+    }
+    &__review {
+        font-family: $primary-font;
+        font-weight: 300;
+    }
+}

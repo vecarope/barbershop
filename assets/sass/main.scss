@@ -4,11 +4,14 @@
 @import "abstracs/variables";
 //base 
 @import "base/reset";
+@import "base/tupography";
 //components
 @import "components/componentes";
 //layout
 @import "layout/navegación";
 @import "layout/footer";
 @import "layout/header";
+@import "layout/section";
 //pages
+@import "pages/index";
 //themes

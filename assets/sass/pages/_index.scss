@@ -1,0 +1,15 @@
+body {
+    font-family: $primary-font;
+}
+
+.post {
+    padding: 0px;
+    line-height: 2.5;
+    font-weight: 300;
+    &__fecha {
+        margin: 0px;
+        text-align: left;
+        font-family: $secondary-font;
+        font-weight: 400;
+    }
+}

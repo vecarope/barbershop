@@ -1,4 +1,17 @@
 .header {
-    margin-top: auto;
-    background-size: 100% 100%;
+    background-image: url(../img/post-image.jpg);
+    background-size: cover;
+    border-radius: 0%;
+    background-position: 40%;
+    &__texto {
+        font-family: $secondary-font;
+        color: $white;
+        font-weight: 900;
+        font-size: xx-large;
+        font-style: italic;
+    }
+    &__flecha {
+        color: $white;
+        margin: 0;
+    }
 }
