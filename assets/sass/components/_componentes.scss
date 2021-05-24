@@ -13,15 +13,5 @@
 }
 
 .page {
-    background-color: $platinum;
-    &__box {
-        align-items: center;
-        border-bottom: $platinum;
-    }
-    &__item {
-        border-radius: 40px;
-    }
-    &__link {
-        color: $raisin-black;
-    }
+    display: flex;
 }

@@ -1,24 +1,41 @@
+.container {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .section {
-    justify-content: center;
-    &__blog {
-        justify-content: right;
+    flex: 1;
+    vertical-align: middle;
+    &__col {
+        margin: 0;
+        padding: 0;
     }
     &__img {
         width: 200px;
         height: 200px;
-        border-radius: 150px;
+        border-radius: 200px;
     }
     &__name {
         font-family: $secondary-font;
         font-weight: 900;
         font-size: x-large;
         font-style: italic;
+        vertical-align: middle;
+        padding-top: 30px;
     }
     &__link {
         color: $ruddy-pink;
+        vertical-align: middle;
+        margin-bottom: 0;
     }
-    &__review {
+    &__texto {
         font-family: $primary-font;
         font-weight: 300;
+        text-align: justify;
+        vertical-align: middle;
+        margin: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
