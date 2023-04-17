@@ -1,6 +1,6 @@
 # BARBERSHOP
 ### Maqueta blog Barberia
-### implementando SASS en Bootcamp Front-end 
+### implementado con SASS en Bootcamp Front-end 
 
 ## Tecnologías 
 - **SASS**  
